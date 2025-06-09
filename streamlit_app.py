@@ -18,9 +18,6 @@ from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
 from io import BytesIO
 
-# 設定中文字體
-plt.rcParams['font.family'] = 'Microsoft JhengHei'
-
 # Streamlit 頁面設定
 st.set_page_config(page_title="升級版 AI 跌倒風險預測", layout="wide")
 st.title("🧠 升級版 AI 跌倒風險預測平台")
